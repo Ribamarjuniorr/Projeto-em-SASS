@@ -4,7 +4,10 @@
   "description": "CRiando um projeto através do sass apartir de um curso online.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "sass" : "node-sass app/src/style.scss app/dist/style.scc",
+    "sass-watch": "node-sass --watch app/src/style.scss app/dist/style.scc",
+     
   },
   "keywords": [],
   "author": "",
